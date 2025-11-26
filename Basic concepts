@@ -1,1 +1,11 @@
+What are different file formats?
+1. Delimited text file formats or .CSV or .TSV
+2. Microsoft excel open or .XML or .XLSX
+3. Extensible markup language or .XML
+4. Potable document format or .PDF
+5. JavaScript object notations or .JSON
 
+1. Delimited text file formats --> Data is stored as text and each value is separated by a specific character called delimiter. Delimiter can be comma, tab, space, colon, pipe or semicolon. 
+Delimiter defines boundary between independent values. 
+3. .XML --> Markup language with set rules for encoding data and is self descriptive language readable by both machines and humans. 
+5. .JSON --> text based open standard design for transmitting data over the web. Language independent and easy to use. 
