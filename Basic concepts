@@ -7,5 +7,30 @@ What are different file formats?
 
 1. Delimited text file formats --> Data is stored as text and each value is separated by a specific character called delimiter. Delimiter can be comma, tab, space, colon, pipe or semicolon. 
 Delimiter defines boundary between independent values. 
-3. .XML --> Markup language with set rules for encoding data and is self descriptive language readable by both machines and humans. 
-5. .JSON --> text based open standard design for transmitting data over the web. Language independent and easy to use. 
+
+3. .XML --> A well-organized filing cabinet with labels for every piece of data. 
+Markup language with set rules for encoding data and is self descriptive language readable by both machines and humans. 
+<employee>
+  <name>Alice</name>
+  <age>30</age>
+  <city>Bangalore</city>
+</employee>
+
+Pros- sharing structured data between systems and can handle complex relationships
+Limitations - very wordy as lots of tags, slower to process compared to csv or json. 
+
+5. .JSON -->  A neat shopping list with categories and sub-items. text based open standard design for transmitting data over the web. Language independent and easy to use. 
+
+{
+  "employee": {
+    "name": "Alice",
+    "age": 30,
+    "city": "Bangalore"
+  }
+}
+
+Need simple, fast data exchange? → CSV
+Need formulas, charts, and analysis? → XLSX
+Need structured, hierarchical data for systems? → XML
+Need a fixed, uneditable document? → PDF
+Need lightweight structured data for apps/APIs? → JSON
