@@ -40,6 +40,14 @@ A specialized subset of ML, that uses layered neural network to simulated human 
 What is Neural Networks ?
 collection of small computing units called neurons. that takes incoming data and learn to make decisions over time.
 
+AI -- (subset) -- ML --(subset)-- Deep learning
+  -- (subset) - Gen AI
+
 What is Generative AI?
 a subset of AI that focusses on producing new data rather than analyzing existing data. 
 allows machines to create content like images, music, language, code etc. 
+
+Regression
+Machine learning algorithms rely heavily on statistical technique called regression. 
+Regression identifies the strength and amount of the correlation between one or more inputs and an output. 
+For instance, how much does the price of a house increase based on its square footage and number of bedrooms, and how confident can you be of this relationship? 
